@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="MilkCollection"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <!-- LAUNCHER -->
+        <activity
+            android:name=".splash.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- AUTH -->
+        <activity
+            android:name=".auth.LoginActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".auth.SignupActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".auth.VerifyEmailActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".auth.ForgotPasswordActivity"
+            android:exported="false" />
+
+        <!-- CORE -->
+        <activity
+            android:name=".splash.LanguageActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".core.LoadingActivity"
+            android:exported="false" />
+
+        <!-- USER -->
+        <activity
+            android:name=".user.UserDashboardActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".user.WaitingApprovalActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".user.RejectedActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".user.BlockedActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".user.MilkHistoryActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".user.PaymentHistoryActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".user.FeedStoreActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".user.UserFeedOrdersActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".user.RequestLoanActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".user.MyLoansActivity"
+            android:exported="false" />
+
+        <!-- ADMIN -->
+        <activity
+            android:name=".admin.AdminDashboardActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".admin.ManageUsersActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".admin.MilkEntryActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".admin.PaymentEntryActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".admin.FarmerManagementActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".admin.FarmerProfileActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".admin.AdminMilkHistoryActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".admin.AdminPaymentHistoryActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".admin.GlobalMilkHistoryActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".admin.GlobalPaymentHistoryActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".admin.ManageFeedActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".admin.FeedRequestsActivity"
+            android:exported="false" />
+
+        <!-- LOAN MODULE -->
+        <activity
+            android:name=".admin.AdminLoanRequestsActivity"
+            android:exported="false" />
+
+
+
+    </application>
+
+</manifest>

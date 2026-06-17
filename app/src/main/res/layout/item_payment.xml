@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    card_view:cardCornerRadius="12dp"
+    card_view:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- FARMER INFO -->
+
+        <TextView
+            android:id="@+id/farmerNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rohan Shinde"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/farmerIdText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Farmer ID: 0001"
+            android:textSize="14sp"
+            android:textColor="#666"
+            android:layout_marginBottom="10dp"
+            android:visibility="gone"/>
+
+        <!-- TOP ROW -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- AMOUNT -->
+            <TextView
+                android:id="@+id/amountText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="₹5000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <!-- STATUS -->
+            <TextView
+                android:id="@+id/statusText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Confirmed"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:background="#E8F5E9"
+                android:textColor="#2E7D32"/>
+        </LinearLayout>
+
+        <!-- METHOD -->
+        <TextView
+            android:id="@+id/methodText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cash"
+            android:textSize="16sp"
+            android:textColor="#555"
+            android:layout_marginTop="8dp"/>
+
+        <!-- TIME -->
+        <TextView
+            android:id="@+id/timeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14 May 08:20 PM"
+            android:textSize="14sp"
+            android:textColor="#888"
+            android:layout_marginTop="4dp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

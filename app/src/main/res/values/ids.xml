@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="firstName" type="id" />
+    <item name="middleName" type="id" />
+    <item name="lastName" type="id" />
+    <item name="mobile" type="id" />
+    <item name="email" type="id" />
+    <item name="password" type="id" />
+    <item name="createAccountBtn" type="id" />
+</resources>

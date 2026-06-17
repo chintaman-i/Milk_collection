@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="#F5F6FA">
+
+        <!-- TITLE -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment Entry"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- FARMER ID -->
+        <EditText
+            android:id="@+id/farmerIdEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Farmer ID"
+            android:inputType="number"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- AMOUNT -->
+        <EditText
+            android:id="@+id/amountEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Amount"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- PAYMENT METHOD -->
+        <Spinner
+            android:id="@+id/paymentMethodSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- NOTE -->
+        <EditText
+            android:id="@+id/noteEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Note (Optional)"
+            android:minLines="3"
+            android:gravity="top"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- SAVE BUTTON -->
+        <Button
+            android:id="@+id/saveBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Payment"/>
+
+    </LinearLayout>
+
+</ScrollView>
