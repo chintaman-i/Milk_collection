@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "952773478533",
+    "project_id": "milkcollection-fc357",
+    "storage_bucket": "milkcollection-fc357.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952773478533:android:707f325ea407a5fb8f81ec",
+        "android_client_info": {
+          "package_name": "com.example.milkcollection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "952773478533-ap2n3ihlmsuvgormv1aj76d0u8oulnsl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.milkcollection",
+            "certificate_hash": "c8e5d4f1557d9d021f9f0779ec3a4e94e05085c3"
+          }
+        },
+        {
+          "client_id": "952773478533-f5hfgthrj00st8eh8soh95uupklfh4mb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9fTWE6vy0XjJapHO-I4sSzv8zlE6Vgxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "952773478533-f5hfgthrj00st8eh8soh95uupklfh4mb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
